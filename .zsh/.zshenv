@@ -14,3 +14,8 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 # rbenv
 export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init - --no-rehash)"
+
+if [ -n "$DEBUG" ]; then
+	zmodload zsh/zprof && zprof
+	unset DEBUG
+fi
