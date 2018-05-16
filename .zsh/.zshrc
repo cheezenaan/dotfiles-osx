@@ -18,3 +18,7 @@ bindkey '^x^k' anyframe-widget-kill
 if (which zprof >/dev/null); then
 	zprof | less -qR
 fi
+
+if (which zprof >/dev/null); then
+	zprof | less -qR
+fi
