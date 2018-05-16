@@ -1,0 +1,18 @@
+alias cp='cp -v'
+alias mv='mv -v'
+alias mkdir='mkdir -p'
+alias reload='exec -l $SHELL'
+alias la="ls -la"
+
+# Git
+# see also: https://github.com/sorin-ionescu/prezto/blob/master/modules/git/alias.zsh
+alias gcob='git checkout -b'
+alias gcom='git checkout master'
+
+if [ -s "$(which tig)" ]; then
+	alias ts='tig status'
+fi
+
+# Docker
+alias d="docker"
+alias dc="docker-compose"
