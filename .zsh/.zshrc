@@ -14,3 +14,7 @@ if [ "$(which peco)" ]; then
 	bindkey '^g' anyframe-widget-cd-ghq-repository
 	bindkey '^x^k' anyframe-widget-kill
 fi
+
+if (which zprof >/dev/null); then
+	zprof | less -qR
+fi
