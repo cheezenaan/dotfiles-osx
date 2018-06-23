@@ -16,8 +16,6 @@ zplug "mollifier/anyframe", lazy:true
 zplug "motemen/ghq", from:gh-r, as:command, rename-to:ghq, lazy:true
 zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 
-zstyle ":anyframe:selector:" use fzf
-
 # Install uninstalled plugins
 zplug check --verbose || zplug install
 zplug load
