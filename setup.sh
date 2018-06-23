@@ -5,11 +5,11 @@ basepath=$(
 	pwd
 )
 
-if [ ! -d ~/.zsh ]; then
-	mkdir ~/.zsh
+if [ ! -d ~/.zsh/rc ]; then
+	mkdir -p ~/.zsh/rc
 fi
 
 ln -sf $basepath/.zshenv ~/.zshenv
-for file in .zsh/.z*; do
-	ln -sfv $basepath/$file ~/.zsh/
-done
+
+for rc in .zsh/rc/.z*; do ln -sfv $basepath/$rc ~/.zsh/rc; done
+for file in .zsh/.z*; do ln -sfv $basepath/$file ~/.zsh; done

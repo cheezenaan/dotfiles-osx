@@ -1,5 +1,5 @@
-for file in $ZDOTDIR/.z{aliases,functions,plugins,prompts}; do
-	[ -r "$file" ] && source "$file"
+for rc in $ZDOTDIR/rc/.z{aliases,functions,plugins,prompts}; do
+	[ -r $rc ] && source $rc
 done
 
 setopt no_beep
