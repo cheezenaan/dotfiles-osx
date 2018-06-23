@@ -15,12 +15,11 @@ zplug "mollifier/anyframe", lazy:true
 zplug "motemen/ghq", from:gh-r, as:command, rename-to:ghq, lazy:true
 zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 
-# # from prezto
+# from prezto
 zplug "modules/completion", from:prezto
 zplug "modules/directory", from:prezto
 zplug "modules/editor", from:prezto
 zplug "modules/git", from:prezto
-zplug "modules/history", from:prezto
 zplug "modules/utility", from:prezto
 
 zstyle ":prezto:module:editor" key-bindings "emacs"

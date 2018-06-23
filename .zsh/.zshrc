@@ -1,4 +1,4 @@
-for rc in $ZDOTDIR/rc/.z{aliases,functions,plugins,prompts}; do
+for rc in $ZDOTDIR/rc/.z{aliases,functions,plugins,prompts,variables,options}; do
 	[ -r $rc ] && source $rc
 done
 
