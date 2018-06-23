@@ -3,6 +3,7 @@ alias cp='cp -v'
 alias mv='mv -v'
 alias mkdir='mkdir -p'
 alias reload='exec -l $SHELL'
+alias ls='ls -G' # Enable '-G' option only in Mac
 alias la='ls -la'
 
 # Git
