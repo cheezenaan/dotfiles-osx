@@ -1,9 +1,4 @@
-for file in $ZDOTDIR/.z{aliases,functions,plugins,prompts}; do
-	[ -r "$file" ] && source "$file"
-done
-
-setopt no_beep
-autoload -Uz cdr
+for rcfile in $ZDOTDIR/rc/*; do [ -r $rcfile ] && source $rcfile; done
 
 # fzf
 export FZF_DEFAULT_OPTS="--height 70%"
