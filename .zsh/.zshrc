@@ -5,6 +5,10 @@ done
 setopt no_beep
 autoload -Uz cdr
 
+# fzf
+export FZF_DEFAULT_OPTS="--height 70%"
+export FZF_ALT_C_OPTS="--select-1 --exit-0"
+
 # anyframe
 if [ "$(which peco)" ]; then
 	autoload -Uz anyframe-init && anyframe-init
