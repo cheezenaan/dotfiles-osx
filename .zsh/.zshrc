@@ -1,8 +1,5 @@
-for rc in $ZDOTDIR/rc/.z{aliases,functions,plugins,prompts,variables,options}; do
-	[ -r $rc ] && source $rc
-done
+for rc in $ZDOTDIR/rc/.z*; do [ -r $rc ] && source $rc; done
 
-setopt no_beep
 autoload -Uz cdr
 
 # fzf
