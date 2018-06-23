@@ -16,6 +16,9 @@ zplug "mollifier/anyframe", lazy:true
 zplug "motemen/ghq", from:gh-r, as:command, rename-to:ghq, lazy:true
 zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 
+zplug 'modules/utility', from:prezto
+zplug "modules/completion", from:prezto
+
 # Install uninstalled plugins
 zplug check --verbose || zplug install
 zplug load
