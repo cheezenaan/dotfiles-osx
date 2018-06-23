@@ -19,7 +19,6 @@ zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 zplug "modules/completion", from:prezto
 zplug "modules/directory", from:prezto
 zplug "modules/editor", from:prezto
-zplug "modules/git", from:prezto
 zplug "modules/utility", from:prezto
 
 zstyle ":prezto:module:editor" key-bindings "emacs"
