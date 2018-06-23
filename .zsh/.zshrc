@@ -1,7 +1,5 @@
 for rc in $ZDOTDIR/rc/.z*; do [ -r $rc ] && source $rc; done
 
-autoload -Uz cdr
-
 # fzf
 export FZF_DEFAULT_OPTS="--height 70%"
 export FZF_ALT_C_OPTS="--select-1 --exit-0"
