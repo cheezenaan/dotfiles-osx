@@ -1,4 +1,4 @@
-for rc in $ZDOTDIR/rc/.z*; do [ -r $rc ] && source $rc; done
+for rcfile in $ZDOTDIR/rc/*; do [ -r $rcfile ] && source $rcfile; done
 
 # fzf
 export FZF_DEFAULT_OPTS="--height 70%"
