@@ -1,6 +1,9 @@
 for rcfile in $ZDOTDIR/rc/*; do [ -r $rcfile ] && source $rcfile; done
 
+autoload -Uz cdr
+
 # fzf
+zstyle ":anyframe:selector:" use fzf
 export FZF_DEFAULT_OPTS="--height 70%"
 export FZF_ALT_C_OPTS="--select-1 --exit-0"
 
