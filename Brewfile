@@ -42,6 +42,10 @@ brew "fish"
 brew "fontforge"
 # Monitor a directory for changes and run a shell command
 brew "fswatch"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# Remote repository management made easy
+brew "ghq"
 # Access GitHub's .gitignore boilerplates
 brew "gibo"
 # Distributed revision control system
