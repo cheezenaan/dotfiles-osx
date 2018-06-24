@@ -51,7 +51,7 @@ alias gmt 'git mergetool'
 alias gp 'git push'
 alias gpf 'git push --force-with-lease'
 alias gpt 'git push --tags'
-alias gpp 'git pull origin (git rev-parse --abbrev-ref HEAD) ; and git push origin (git rev-parse --abbrev-ref HEAD)'
+alias gpp 'git pull origin @{u} ; and git push origin HEAD'
 
 # Rebase (r)
 alias gr 'git rebase'
