@@ -36,6 +36,8 @@ brew "docker-machine"
 brew "libyaml"
 # Isolated development environments using Docker
 brew "docker-compose"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
 # Command-line outline and bitmap font editor/converter
 brew "fontforge"
 # Monitor a directory for changes and run a shell command
