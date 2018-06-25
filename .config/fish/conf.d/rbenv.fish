@@ -1,0 +1,1 @@
+/Users/cheezenaan/.config/fisherman/rbenv/conf.d/rbenv.fish

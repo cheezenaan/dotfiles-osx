@@ -5,11 +5,10 @@ basepath=$(
 	pwd
 )
 
-if [ ! -d ~/.zsh/rc ]; then
-	mkdir -p ~/.zsh/rc
-fi
-
+# Install zsh shell
 ln -sf $basepath/.zshenv ~/.zshenv
-
-for rcfile in .zsh/rc/*; do ln -sfv $basepath/$rcfile ~/.zsh/rc; done
+ln -sfv $basepath/.zsh/rc $HOME/.zsh
 for zfile in .zsh/.z*; do ln -sfv $basepath/$zfile ~/.zsh; done
+
+# Install fish shell
+ln -sfv $basepath/.config/fish $HOME/.config
