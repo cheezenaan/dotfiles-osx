@@ -11,4 +11,11 @@ ln -sfv $basepath/.zsh/rc $HOME/.zsh
 for zfile in .zsh/.z*; do ln -sfv $basepath/$zfile ~/.zsh; done
 
 # Install fish shell
-ln -sfv $basepath/.config/fish $HOME/.config
+FISH_HOME=~/.config/fish
+if [ ! -e "FISH_HOME" ]; then
+	mkdir -p $FISH_HOME
+
+	for file in {alias.fish,config.fish,fishfile}; do
+		ln -sni $basepath/.config/fish/$file ~/.config/fish/$file
+	done
+fi

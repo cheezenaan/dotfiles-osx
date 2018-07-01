@@ -1,1 +1,0 @@
-/Users/cheezenaan/.config/fisherman/fzf/conf.d/fzf.fish
