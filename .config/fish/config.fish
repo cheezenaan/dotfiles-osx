@@ -26,6 +26,12 @@ set -x PATH (echo $PATH | tr ' ' '\n' | sort -u)
 
 # Plugins
 
+## Fisherman
+if not test -f $FISH_HOME/functions/fisher.fish
+  echo "＜(゜∀。) Installing Fisherman ..."
+  curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
+  fisher
+end
 
 ## fzf
 set -x FZF_DEFAULT_OPTS '--height 80% --border --ansi --multi'
