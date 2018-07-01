@@ -30,7 +30,7 @@ set -x PATH (echo $PATH | tr ' ' '\n' | sort -u)
 if not test -f $FISH_HOME/functions/fisher.fish
   echo "＜(゜∀。) Installing Fisherman ..."
   curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
-  fisher
+  fisher ; and fisher up
 end
 
 ## fzf
