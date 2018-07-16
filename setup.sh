@@ -15,7 +15,7 @@ FISH_HOME=~/.config/fish
 if [ ! -e "FISH_HOME" ]; then
 	mkdir -p $FISH_HOME
 
-	for file in {alias.fish,config.fish,fishfile}; do
+	for file in {alias.fish,config.fish,env.fish,fishfile}; do
 		ln -sni $basepath/.config/fish/$file ~/.config/fish/$file
 	done
 fi

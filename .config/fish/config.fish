@@ -6,23 +6,11 @@ set -x LANG ja_JP.UTF-8
 
 set -x FISH_HOME $HOME/.config/fish
 
-## aliases
+## Aliases
 source $FISH_HOME/alias.fish
 
 # Environment Variables
-
-## Homebrew
-set -x PATH /usr/local/bin $PATH
-
-## golang
-set -x GOPATH $HOME
-set -x PATH $GOPATH/bin $PATH
-
-## nodebrew
-set -x PATH $HOME/.nodebrew/current/bin $PATH
-
-## Remove redundant paths
-set -x PATH (echo $PATH | tr ' ' '\n' | sort -u)
+source $FISH_HOME/env.fish
 
 # Plugins
 
