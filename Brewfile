@@ -1,13 +1,15 @@
-tap "heroku/brew"
-tap "buo/cask-upgrade"
-tap "homebrew/cask-versions"
-tap "homebrew/core"
-tap "homebrew/boneyard"
-tap "homebrew/cask"
-tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 tap "argon/mas"
 tap "beeftornado/rmtree"
+tap "buo/cask-upgrade"
+tap "heroku/brew"
+tap "homebrew/binary"
+tap "homebrew/boneyard"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/dupes"
 # GNU database manager
 brew "gdbm"
 # SSL/TLS cryptography library
@@ -62,6 +64,8 @@ brew "lua"
 brew "mackup"
 # GUI for vim, made for macOS
 brew "macvim", args: ["with-lua", "with-override-system-vim"]
+# Node.js version manager
+brew "nodebrew"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
 # Ruby version manager
@@ -107,6 +111,8 @@ cask "evernote"
 cask "firefox"
 cask "flash-player"
 cask "flux"
+cask "font-myrica"
+cask "font-myricam"
 cask "google-chrome"
 cask "google-cloud-sdk"
 cask "google-japanese-ime"
@@ -126,6 +132,7 @@ cask "skype"
 cask "slack"
 cask "smcfancontrol"
 cask "sourcetree"
+cask "station"
 cask "the-unarchiver"
 cask "thunderbird"
 cask "vagrant"
@@ -133,9 +140,8 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
 cask "yabumi"
-cask "homebrew/cask-fonts/font-myrica"
-cask "homebrew/cask-fonts/font-myricam"
 mas "Day One", id: 1055511498
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Monosnap", id: 540348655
+mas "Xcode", id: 497799835
