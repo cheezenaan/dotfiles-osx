@@ -142,6 +142,7 @@ cask "visual-studio-code"
 cask "vlc"
 cask "yabumi"
 mas "Day One", id: 1055511498
+mas "GIF Brewery 3", id: 1081413713
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Monosnap", id: 540348655
