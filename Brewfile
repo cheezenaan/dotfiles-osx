@@ -30,8 +30,6 @@ brew "curl"
 brew "direnv"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
-# Create Docker hosts locally and on cloud providers
-brew "docker-machine"
 # YAML Parser
 brew "libyaml"
 # Isolated development environments using Docker
@@ -96,17 +94,12 @@ brew "zsh", args: ["without-etcdir"]
 brew "zsh-completions"
 # Mac App Store command-line interface
 brew "argon/mas/mas"
-# Everything you need to get started with Heroku
-brew "heroku/brew/heroku"
 cask "1password"
 cask "adobe-creative-cloud"
 cask "adobe-photoshop-lightroom"
 cask "alfred"
 cask "appcleaner"
-cask "atom"
 cask "bitbar"
-cask "charles"
-cask "dayone-cli"
 cask "discord"
 cask "docker"
 cask "dropbox"
@@ -125,9 +118,7 @@ cask "iina"
 cask "iterm2"
 cask "java"
 cask "karabiner-elements"
-cask "keepassx"
 cask "kindle"
-cask "macdown"
 cask "monolingual"
 cask "postman"
 cask "sequel-pro"
@@ -135,17 +126,11 @@ cask "skype"
 cask "slack"
 cask "smcfancontrol"
 cask "sourcetree"
-cask "station"
 cask "the-unarchiver"
 cask "thunderbird"
-cask "trailer"
 cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
-cask "vlc"
-cask "yabumi"
-mas "Day One", id: 1055511498
-mas "GIF Brewery 3", id: 1081413713
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Monosnap", id: 540348655
