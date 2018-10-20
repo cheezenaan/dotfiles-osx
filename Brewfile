@@ -24,6 +24,8 @@ brew "awscli"
 brew "pcre"
 # Core application library for C
 brew "glib"
+# Enables you to reproduce the CircleCI environment locally
+brew "circleci"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Load/unload environment variables based on $PWD
