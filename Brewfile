@@ -52,6 +52,8 @@ brew "gibo"
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Smarter Dockerfile linter to validate best practices
+brew "hadolint"
 # Add GitHub support to git on the command-line
 brew "hub"
 # Lightweight and flexible command-line JSON processor
