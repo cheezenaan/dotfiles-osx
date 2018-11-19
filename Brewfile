@@ -2,14 +2,13 @@ tap "argon/mas"
 tap "beeftornado/rmtree"
 tap "buo/cask-upgrade"
 tap "heroku/brew"
-tap "homebrew/binary"
 tap "homebrew/boneyard"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
-tap "homebrew/dupes"
+tap "mas-cli/tap"
 # GNU database manager
 brew "gdbm"
 # SSL/TLS cryptography library
@@ -24,6 +23,8 @@ brew "awscli"
 brew "pcre"
 # Core application library for C
 brew "glib"
+# Vector graphics library with cross-device output support
+brew "cairo"
 # Enables you to reproduce the CircleCI environment locally
 brew "circleci"
 # Get a file from an HTTP, HTTPS or FTP server
@@ -40,6 +41,10 @@ brew "docker-compose"
 brew "envchain"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Framework for layout and rendering of i18n text
+brew "pango"
 # Command-line outline and bitmap font editor/converter
 brew "fontforge"
 # Monitor a directory for changes and run a shell command
@@ -66,8 +71,8 @@ brew "libevent"
 brew "lua"
 # Keep your Mac's application settings in sync
 brew "mackup"
-# GUI for vim, made for macOS
-brew "macvim", args: ["with-lua", "with-override-system-vim"]
+# Mac App Store command-line interface
+brew "mas"
 # Node.js version manager
 brew "nodebrew"
 # Cryptography and SSL/TLS Toolkit
@@ -78,6 +83,8 @@ brew "rbenv"
 brew "reattach-to-user-namespace"
 # Autoformat shell script source code
 brew "shfmt"
+# Tool to build, change, and version infrastructure
+brew "terraform"
 # Code-search similar to ack
 brew "the_silver_searcher"
 # Text interface for Git repositories
@@ -88,6 +95,8 @@ brew "tmux"
 brew "travis"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Vi 'workalike' with many additional features
+brew "vim", args: ["with-lua", "with-override-system-vi"]
 # Internet file retriever
 brew "wget"
 # JavaScript package manager
@@ -96,11 +105,9 @@ brew "yarn", args: ["without-node"]
 brew "zsh", args: ["without-etcdir"]
 # Additional completion definitions for zsh
 brew "zsh-completions"
-# Mac App Store command-line interface
-brew "argon/mas/mas"
+# Everything you need to get started with Heroku
+brew "heroku/brew/heroku"
 cask "1password"
-cask "adobe-creative-cloud"
-cask "adobe-photoshop-lightroom"
 cask "alfred"
 cask "appcleaner"
 cask "bitbar"
@@ -133,9 +140,12 @@ cask "sourcetree"
 cask "the-unarchiver"
 cask "thunderbird"
 cask "vagrant"
-cask "virtualbox"
 cask "visual-studio-code"
+cask "vlc"
+cask "yabumi"
+mas "GIF Brewery 3", id: 1081413713
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Monosnap", id: 540348655
+mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
