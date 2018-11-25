@@ -63,6 +63,8 @@ brew "go"
 brew "hadolint"
 # Add GitHub support to git on the command-line
 brew "hub"
+# Configurable static site generator
+brew "hugo"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Asynchronous event library
