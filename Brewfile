@@ -37,6 +37,8 @@ brew "docker"
 brew "libyaml"
 # Isolated development environments using Docker
 brew "docker-compose"
+# macOS Credential Helper for Docker
+brew "docker-credential-helper"
 # Secure your credentials in environment variables
 brew "envchain"
 # User-friendly command-line shell for UNIX-like operating systems
