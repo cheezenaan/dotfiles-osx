@@ -5,9 +5,6 @@ alias mkdir 'mkdir -p'
 alias ls 'ls -G' # Enable '-G' option only in Mac
 alias la 'ls -la'
 
-## execute benchmark
-alias shell_benchmark 'for i in (seq 1 5) ; time fish -ic exit ; end'
-
 # Git
 # ref. https://github.com/sorin-ionescu/prezto/blob/master/modules/git/alias.zsh
 alias gcob 'git checkout -b'
